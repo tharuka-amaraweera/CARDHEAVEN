@@ -1,0 +1,79 @@
+a.h:visited{color: white;}
+a.h:link{text-decoration:none; color: white;}
+a.h:hover{text-decoration:underline; color: pink;}
+
+body{
+	background-image: url("homepics/bg77.jpg");
+	background-repeat: repeat;
+}
+
+.headerdiv{
+	width: 1366px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	z-index: 0;
+    background: linear-gradient(to bottom right, #003366 -1%, #ffff99 100%)
+	
+}
+.headerp1{
+	font-family: 'Algerian';
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	bottom: 40px;
+	
+}
+
+.headerp2{
+	font-family:'Comic Sans MS';
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	bottom: 40px;
+	color:#ffff1a;
+}
+.img1div{
+	width: 1366px;
+	height: 300px;
+	background-color: yellow;
+	clear: both;
+	
+}
+.mainmenudiv{
+	width: 1366px;
+	height: 70px;
+	background-image: url("homepics/menup.jpg");
+	
+}
+.m_menu ul
+    {
+        margin: 0;
+        padding:15;
+        font-size: 1.2em;
+    }
+.m_menu {
+    position: relative;
+    top: 12px;
+    left: 250px;
+    display: inline-block;
+}
+.m_menu li{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 30px;
+    content: " | ";
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   }
+	
+.list{
+	font-size:1em;
+}
+	
+	
+	

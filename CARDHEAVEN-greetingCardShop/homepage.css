@@ -1,0 +1,353 @@
+a.h:visited{color: white;}
+a.h:link{text-decoration:none; color: white;}
+a.h:hover{text-decoration:underline; color: hotpink;}
+
+body {
+ 	background: linear-gradient(to top left, #000000 49%, #000000 100%);
+ 	background-image: url("homepics/back2.jpg");
+}
+.headerdiv{
+	display: -webkit-flex;
+	display:flex;
+	width: 1366px;
+	height: 150px;
+	float: left;
+	position: absolute;
+	z-index: 0;
+    background: linear-gradient(to bottom right, #003366 -1%, #ffff99 100%)
+	
+}
+.logo {
+   
+    width: 200px;
+    height: 150px;
+    margin-left: 0px;
+    position: relative;
+   }
+.head {
+    
+    width: 400px;
+    height: 150px;
+    margin-left: 300px;
+   }
+.sea {
+    
+    width: 250px;
+    height: 150px;
+    margin-left: 250px;
+   }   
+.seabod{
+	border: double;
+}
+.headerp1{
+	font-family: 'Sofia';
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	bottom: 40px;
+	
+}
+.img1div{
+	width: 1366px;
+	height: 500px;
+	background-color: yellow;
+	clear: both
+}
+.mainmenudiv{
+	width: 1360px;
+	height: 70px;
+	background-image: url("homepics/menup.jpg");
+}
+.m_menu ul
+    {
+        margin: 0;
+        padding:15;
+        font-size: 1.2em;
+    }
+.m_menu {
+    position: relative;
+    top: 12px;
+    left: 250px;
+    display: inline-block;
+}
+.m_menu li{
+    font-weight: bold;
+    display: inline;
+    text-transform: uppercase;
+    margin-right: 50px;
+    content: " | ";
+    font-size: 1.2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.weldiv{
+	width: 1366px;
+	height: 200px;
+}
+.img2{
+	vertical-align: middle;
+	margin-left: 550px;
+}
+.paraemptydiv{
+	width: 250px;
+	height: 230px;
+	float: left;
+	
+}
+.paraemptydi{
+	width: 250px;
+	height: 230px;
+	float: right;
+	
+	
+}
+.paradiv{
+	width: 800px;
+	height: 230px;
+	float: left;
+	margin-left: 20px;
+	
+}
+.button {
+  padding: 8px 65px;
+  font-size: 18px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: #ff3300;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  text-decoration: none ;
+}
+
+.button:hover {background-color: pink}
+
+.button:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button1 {
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: #ff3300;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 1px;
+  text-decoration: none ;
+}
+
+.button1:hover {background-color: pink}
+
+.button1:active {
+  background-color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.parap1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.5em;
+	text-align:center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.pic1{
+	width:300px;
+	height: 300px;
+	position: relative;
+	float:left;
+	background-color: black;
+	margin-left: 50px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.pic2{
+	width:600px;
+	height: 620px;
+	position: relative;
+	float:left;
+	background-color: white;
+}
+.pic3{
+	width:300px;
+	height: 300px;
+	position: relative;
+	float:right;
+	background-color: blue;
+	margin-right: 50px;
+	margin-bottom: 15px;
+}
+.pic4{
+	width:300px;
+	height: 300px;
+	position: relative;
+	float:right;
+	background-color: yellow;
+	margin-right: 50px;
+}
+.pic5{
+	width:300px;
+	height: 300px;
+	position: relative;
+	float:left;
+	background-color: blue;
+	margin-left: 50px;
+	margin-right: 20px;
+	margin-top: -300px;
+}
+	
+.slider-holderempty{
+	width: 310px;
+    height: 400px;
+    float: left;
+    position: clear;
+    }
+ #sliderholder{
+ 	width: 800px;
+ 	height: 500px;
+ 	float: left;
+ 	border: 1px solid black;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	margin-top: 50px;
+ }
+ #sliderholder >img{
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ }
+ #sliderholder >.btn{
+ 	position: absolute;
+ 	width: 50px;
+ 	height: 50px;
+ 	border: none;
+ 	border-radius: 25px;
+ 	top: 200px;
+ 	background-color: black;
+ 	color: white;
+ 	font-size: 20px;
+ }
+ #sliderholder>#btn1:hover{
+ 	box-shadow: 10px 8px 20px 8px black;
+ }
+  #sliderholder>#btn2:hover{
+ 	box-shadow: -10px 8px 20px 8px black;
+ 	}
+ #sliderholder>#btn2{
+ 	position: relative;
+ 	float: right;
+ }
+ .test{
+ 	width: 1336px;
+ 	height: 400px;
+ 	position: relative;
+ 	float: left;
+ 	margin-top: 20px;
+ 
+ }
+ 
+ .testp {
+ 	 position:absolute;
+ 	 top:10px;
+ 	 font-size:2.7em; 
+     font-family:"vedana";
+     background:rgba(251,251,251,0.2);
+	 padding:10px 20px;
+ 	 width:100%;
+  	 text-align:center;
+  	 color: white;}
+
+.testemailp {
+ 	 position:absolute;
+ 	 top:300px;
+ 	 font-size:1.0em; 
+     font-family:"vedana";
+     background:rgba(251,251,251,0.2);
+	 padding:10px 20px;
+  	 text-align:center;
+  	 color: white;
+  	 margin-left:70px;
+  	 width: 25%;
+  	  	 }
+ .testsubp {
+ 	 position:absolute;
+ 	 top:300px;
+ 	 font-size:1.0em; 
+     font-family:"vedana";
+     background:rgba(251,251,251,0.2);
+	 padding:10px 20px;
+ 	 width:15%;
+  	 text-align:center;
+  	 color: white;
+  	 margin-left: 1050px; 
+  	  	 } 
+  	  	 
+.testspic {
+ 	 position:absolute;
+ 	 top:200px; 
+     background:rgba(251,251,251,0.2);
+  	 color: white;
+  	 margin-left: 600px; 
+  	 width: 300px;
+  	 height: 250px;
+}
+ 
+.fot{
+	display: -webkit-flex;
+	display:flex;
+	width:1336px;
+	height:160px;
+	background-color: none;
+	position: relative;
+	float: left;	
+	margin-top: 100px;
+}
+.stay{
+	width:362px;
+	height:160px;
+	background-image: url("homepics/bg6.jpg");
+	position: relative;
+	float: left;
+	
+}
+.stay1{
+	width:550px;
+	height:160px;
+	background-image: url("homepics/bg6.jpg");
+	position: relative;
+	float: left;
+	
+}
+.fotbod{
+	width:46px;
+	height:160px;
+	background-color: none;
+	position: relative;
+	float: left;
+}
+.foot{
+	width:1336px;
+	height:40px;
+	background-color: black;
+	position: relative;
+	color: white;
+	text-align: center;
+	
+}
+.fot1{
+	display: -webkit-flex;
+	display:flex;
+	width:1336px;
+	height:40px;
+	background-color: black;
+	position: relative;
+	float: left;	
+	margin-top: 0px;
+}

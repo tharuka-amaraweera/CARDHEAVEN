@@ -1,0 +1,162 @@
+/*for menu*/
+a.h:visited{color: Black;}
+a.h:link{text-decoration:none; color: black;}
+a.h:hover{text-decoration:underline; color: white;}
+
+html,body {
+  margin: 5px;
+  padding: 30px;
+ 
+  overflow-x: hidden;
+/*for slide show*/
+}
+.slider {
+  width: 1024px;
+  margin: 2em auto;
+
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.slide {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+  opacity: 1;
+}
+.slider:hover{
+  opacity: 0.6;
+}
+/*for gallery*/
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    position:relative;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.photobanner {
+  height: 233px;
+  width: 3550px;
+  margin-bottom: 80px;
+
+}
+.first {
+  -webkit-animation: bannermove 30s linear infinite;
+  -moz-animation: bannermove 30s linear infinite;
+  -ms-animation: bannermove 30s linear infinite;
+  -o-animation: bannermove 30s linear infinite;
+  animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2125px;
+  }
+
+}
+.share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: 450px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.gallery:hover .image {
+  opacity: 0.3;
+  width: 310px;
+  height: 450px;
+  
+}
+
+.gallery:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #2C00FF  ;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+

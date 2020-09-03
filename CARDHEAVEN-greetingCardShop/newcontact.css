@@ -1,0 +1,102 @@
+body {
+	background-color: white;
+}
+.headerdiv{
+	width: 1366px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	z-index: 0;
+    background: linear-gradient(to bottom right, #003366 -1%, #ffff99 100%)
+	
+}
+.flex{
+	display: -webkit-flex;
+	display: flex;
+	width: 400px;
+	height: 250px;
+	background-color: lightgrey;
+}
+.item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+header{
+	height:380px;
+	background-color: black;
+	background-image: url("contactpics/cont1.jpg");
+}
+.pconnect{
+	text-align: center;
+	font-family: "Eras Bold ITC";
+	font-size: 3.5em;
+	color: white;
+	position: relative;
+}
+.pp{
+	text-align: center;
+	
+	font-size: 1.8em;
+	color: white;
+	font-style:italic;
+	position: relative;
+}
+.share-buttons  {
+  width: 335px;
+  height:400px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  margin-top:400px;
+  margin-left:500px;
+  position: relative;
+}
+.info{
+	width:650px;
+	height: 650px;
+	background-image: url("contactpics/back2.jpg");
+	float: left;
+	position: relative;
+}
+.loc{
+	width: 650px;
+	height:500px;
+	background-image: url("contactpics/back2.jpg");
+	background-color: blue;
+	float: right;
+	position: relative;
+}
+.locmap{
+	width: 450px;
+	height:400px;
+	background-image: url("contactpics/back2.jpg");
+	float: left;
+	position: relative;
+	margin-left: 150px;
+}
+.PP{
+	font-family: Rockwell;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.P{
+	font-family: Rockwell;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 550px;
+	color: white;
+}
+
+.PPP{
+	font-family: Rockwell;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-left: 20px;
+}
