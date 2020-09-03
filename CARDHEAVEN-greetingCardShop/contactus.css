@@ -1,0 +1,34 @@
+body {
+	
+}
+.conheader{
+	width: 1336px;
+	height: 400px;
+	position: absolute;
+	background-image: url("cont1.jpg");
+	
+}
+.pconnect{
+	text-align: center;
+	font-family: "Eras Bold ITC";
+	font-size: 2.9em;
+	color: white;
+	position: relative;
+}
+.pp{
+	text-align: center;
+	font-family: "Monotype Corsiva"
+	font-size: 0.9em;
+	color: white;
+	position: relative;
+}
+.share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  margin-left: 500px;
+  margin-top: 350px;
+ 
+}
